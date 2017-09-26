@@ -16,11 +16,11 @@ println(ll)
 lll = [x * x for x in range(1, 11) if x % 2 == 0]
 println(lll)
 
-# list1 = [m + n for m in range('abc') for n in range('xyz')]
-# print(list1)
+list1 = [m + n for m in 'abc' for n in 'xyz']
+print(list1)
 
-# list2 = [m + str(n) for m in range('abc') for n in range(1, 4)]
-# print(list2)
+list2 = [m + str(n) for m in 'abc' for n in range(1, 4)]
+print(list2)
 
 # 列出当前目录下所有的文件
 import os
